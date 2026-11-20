@@ -1,0 +1,31 @@
+DATA TYPE SIZES
+char       = 1 byte(s)
+short      = 2 byte(s)
+int        = 4 byte(s)
+long       = 8 byte(s)
+long long  = 8 byte(s)
+float      = 4 byte(s)
+double     = 8 byte(s)
+meter_t    = 2 byte(s)
+
+FLOATING POINT RANGES
+float  = approximately -3.402823e+38 to 3.402823e+38
+double = approximately -1.797693e+308 to 1.797693e+308
+FLT_MIN     = 1.175494e-38
+DBL_MIN     = 2.225074e-308
+FLT_EPSILON = 1.192093e-07
+
+FLOATING POINT LIMITS
+FLT_MAX     = 3.402823e+38
+DBL_MAX     = 1.797693e+308
+FLT_EPSILON = 1.192093e-07
+
+METER ROLLOVER TEST
+sizeof(meter_t) = 2 bytes, maximum reading = 65535
+Consumption: 330 units
+Consumption: 256 units
+
+CURRENCY PRECISION TEST (4000 BILLS)
+Float total       = 39.999294281 rupees
+Integer paise     = 4000 paise
+Integer total     = 40.00 rupees
