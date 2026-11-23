@@ -1,0 +1,49 @@
+TASK 10 - EXPECTATION VS EXECUTION
+One bill = Rs.162.51 (16251 paise)
+
+TYPE INFORMATION
+sizeof(int)       = 4 bytes, range = -2147483648 to 2147483647
+sizeof(long)      = 8 bytes, range = -9223372036854775808 to 9223372036854775807
+sizeof(long long) = 8 bytes, range = -9223372036854775808 to 9223372036854775807
+sizeof(float)     = 4 bytes, FLT_DIG = 6
+sizeof(double)    = 8 bytes, DBL_DIG = 15
+
+C STANDARD MINIMUM GUARANTEES
+int: at least 16 bits
+long: at least 32 bits
+long long: at least 64 bits
+float: at least 6 decimal digits of precision
+double: at least 10 decimal digits of precision
+
+TOTAL COMPARISON
+
+Bills: 4000
+Float total       = Rs.650020.12
+Integer paise     = Rs.650040.00
+Double total      = Rs.650040.00
+Difference        = Rs.-19.88
+int total paise   = 65004000
+long total paise  = 65004000
+long long paise   = 65004000
+
+Bills: 60000
+Float total       = Rs.9754209.00
+Integer paise     = Rs.9750600.00
+Double total      = Rs.9750600.00
+Difference        = Rs.3609.00
+int total paise   = 975060000
+long total paise  = 975060000
+long long paise   = 975060000
+
+Bills: 800000
+Float total       = Rs.129308992.00
+Integer paise     = Rs.130008000.00
+Double total      = Rs.130008000.00
+Difference        = Rs.-699008.00
+int total paise   = OVERFLOW (not representable)
+long total paise  = 13000800000
+long long paise   = 13000800000
+
+FLOATING-POINT INFORMATION
+FLT_EPSILON = 1.192092896e-07
+DBL_EPSILON = 2.220446049e-16
