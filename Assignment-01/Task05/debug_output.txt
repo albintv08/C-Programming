@@ -1,0 +1,11 @@
+RURAL ELECTRICITY BILL
+  0 units -> Rs. 50.00
+[DEBUG] Units: 0, Bill: 5000 paise
+100 units -> Rs. 50.00
+[DEBUG] Units: 100, Bill: 5000 paise
+150 units -> Rs. 162.50
+[DEBUG] Units: 150, Bill: 16250 paise
+200 units -> Rs. 275.00
+[DEBUG] Units: 200, Bill: 27500 paise
+350 units -> Rs. 950.00
+[DEBUG] Units: 350, Bill: 95000 paise
