@@ -1,0 +1,5 @@
+RURAL ELECTRICITY BILLING
+Enter previous and current meter readings (0-65535): Previous reading : 1000
+Current reading  : 1150
+Units consumed   : 150
+Total bill       : Rs. 162.50

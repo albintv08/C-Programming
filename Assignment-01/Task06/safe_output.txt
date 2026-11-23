@@ -1,0 +1,2 @@
+Enter previous and current readings: Units consumed: 150
+Total bill: Rs. 162.50

@@ -1,0 +1,2 @@
+RURAL ELECTRICITY BILLING
+Enter previous and current meter readings (0-65535): Error: Invalid input. Enter numeric meter readings.
