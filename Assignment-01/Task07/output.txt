@@ -1,0 +1,17 @@
+TASK 07 - TYPE CONVERSION AND PRECISION
+
+1. Integer division: 150 / 100 = 1
+2. Floating division: 150.0 / 100 = 1.50
+3. Unsigned conversion: (unsigned int)-1 = 4294967295
+4. Integer promotion: (unsigned short)65535 + 1 = 65536
+5. Large long value: 3000000000
+6. Casting that long to int: -1294967296 (implementation-defined)
+7. Bill for 150 units: 16250 paise
+8. Rounding Rs 12.345 to nearest paise: 1235 paise
+
+FLOAT VERSUS INTEGER-PAISE ACCUMULATION
+    1 bills: float = Rs 162.51, integer = Rs 162.51
+  100 bills: float = Rs 16250.98, integer = Rs 16251.00
+ 1000 bills: float = Rs 162510.52, integer = Rs 162510.00
+ 4000 bills: float = Rs 650020.12, integer = Rs 650040.00
+10000 bills: float = Rs 1625020.12, integer = Rs 1625100.00
