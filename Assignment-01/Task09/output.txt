@@ -1,0 +1,22 @@
+TASK 9 - BILLING TEST RESULTS
+Test               Units      Expected        Actual          Result
+Zero units         0          Rs.  50.00    Rs.  50.00    PASS
+100 units          100        Rs.  50.00    Rs.  50.00    PASS
+150 units          150        Rs. 162.50    Rs. 162.50    PASS
+200 units          200        Rs. 275.00    Rs. 275.00    PASS
+350 units          350        Rs. 950.00    Rs. 950.00    PASS
+
+Five-bill total: Rs.1487.50
+Expected total : Rs.1487.50
+Total check    : PASS
+
+METER ROLLOVER TEST
+65535 -> 0: 1 unit(s), bill Rs.50.00
+
+INPUT VALIDATION TESTS
+Letters (abc): REJECTED
+Negative (-10): REJECTED
+Out of range (70000): REJECTED
+Invalid decrease (1200 -> 1100): REJECTED
+
+Billing tests passed: 5/5
