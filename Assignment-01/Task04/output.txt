@@ -1,0 +1,18 @@
+RUPEES TO PAISE
+Macro: Rs. 50 = 5000 paise
+Inline function: Rs. 50 = 5000 paise
+
+SQUARE MACRO TEST
+Incorrect BAD_SQUARE(a + 1) = 7
+Correct SQUARE(a + 1) = 16
+Inline square(a + 1) = 16
+
+MAX MACRO TEST
+MAX(10, 20) = 20
+
+DOUBLE EVALUATION TEST
+Initial i = 3, j = 2
+MAX(i++, j) = 4
+i after macro call = 5
+Inline maximum(i++, j) = 3
+i after inline call = 4
