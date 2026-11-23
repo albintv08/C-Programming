@@ -1,0 +1,8 @@
+BILL SUMMARY
+Total energy: 35040 Wh
+Normal energy: 35040 Wh
+Peak energy: 0 Wh
+Fixed charge: 5000 paise
+Normal energy charge: 7884 paise
+Peak energy charge: 0 paise
+Total bill: Rs. 128.84

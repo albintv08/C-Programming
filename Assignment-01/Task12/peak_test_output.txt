@@ -1,0 +1,15 @@
+SMART METER BILLING SYSTEM
+Tariff configuration loaded successfully.
+Normal rate: 300 paise/kWh
+Peak rate: 120% of normal rate
+Peak period: 18:00 to 22:00
+
+Enter number of readings (maximum 35040): Enter hour (0-23) and energy (Wh) for reading 1: Enter hour (0-23) and energy (Wh) for reading 2: 
+BILL SUMMARY
+Total energy: 2000 Wh
+Normal energy: 1000 Wh
+Peak energy: 1000 Wh
+Fixed charge: 5000 paise
+Normal energy charge: 300 paise
+Peak energy charge: 360 paise
+Total bill: Rs. 56.60
