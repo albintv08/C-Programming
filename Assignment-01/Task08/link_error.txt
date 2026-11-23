@@ -1,0 +1,4 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.o: in function `main':
+main.c:(.text+0x6c): undefined reference to `calculate_bill_paise'
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x120): undefined reference to `print_debug_info'
+collect2: error: ld returned 1 exit status

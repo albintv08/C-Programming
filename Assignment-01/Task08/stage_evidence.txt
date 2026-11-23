@@ -1,0 +1,13 @@
+COMPILATION STAGE FILE TYPES
+main.i:          C source, ASCII text
+main.s:          assembler source, ASCII text
+main.o:          ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+billing.o:       ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+billing_program: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=794a5353ca3cdca028fbc9cad2de9aee82e242c6, for GNU/Linux 3.2.0, not stripped
+
+COMPILATION STAGE FILE SIZES
+-rw-r--r-- 1 alby_kutta alby_kutta 1.5K Nov 23 09:19 billing.o
+-rwxr-xr-x 1 alby_kutta alby_kutta  16K Nov 23 09:19 billing_program
+-rw-r--r-- 1 alby_kutta alby_kutta  22K Nov 23 09:18 main.i
+-rw-r--r-- 1 alby_kutta alby_kutta 2.2K Nov 23 09:18 main.o
+-rw-r--r-- 1 alby_kutta alby_kutta 2.1K Nov 23 09:18 main.s

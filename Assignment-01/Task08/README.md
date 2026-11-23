@@ -1,5 +1,35 @@
-# Task08 — Trace the Compilation Process
+# Task 8 – Trace the Compilation Process
 
-**Status:** Not yet implemented or execution-verified.
+## Objective
+Demonstrate the stages of C compilation using GCC and classify compile-time, link-time and runtime errors.
 
-Add the C source code, inputs/data, exact GCC version and compile/run commands, actual Ubuntu output, genuine screenshots, test table, analysis and complexity comparison required by the supplied assignment PDF. Record measured results only after running the program. Commit this task separately.
+## Source Program
+The billing program from Task 5 was used:
+- `../Task05/main.c`
+- `../Task05/billing.c`
+- `../Task05/billing.h`
+
+## Compilation Evidence
+| Stage | Output |
+|---|---|
+| Preprocessing | main.i |
+| Assembly generation | main.s |
+| Object files | main.o, billing.o |
+| Linking | billing_program |
+
+## Error Evidence
+- `compile_error.txt` – compile-time undeclared variable error.
+- `link_error.txt` – link-time undefined reference error.
+- `runtime_error.txt` – invalid input rejected during execution.
+
+## Program Output
+See `output.txt` for the successful billing results.
+
+## Detailed Explanation
+See `task08_analysis.md`.
+
+## Environment
+- OS: Ubuntu on WSL
+- Compiler: GCC
+- Compilation flags: `-Wall -Wextra -Wpedantic -std=c11`
+- stage_evidence.txt – generated file types and sizes for each compilation stage.

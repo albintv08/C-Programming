@@ -1,0 +1,2 @@
+Enter previous and current readings: Invalid previous reading
+Enter previous and current readings: Invalid previous reading
